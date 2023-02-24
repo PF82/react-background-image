@@ -1,0 +1,253 @@
+/* app */
+.container-0 {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: var(--border-on);
+}
+
+.container-1 {
+  background-color: rgb(0, 119, 255);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 15vw;
+  height: auto;
+  /* min-height: 100vh */
+  padding: 20px 0 20px;
+  padding-bottom: 25px;
+  border-radius: 0px;
+  border: var(--border-off);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* topbuttons */
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -15px;
+  border: var(--border-off);
+}
+
+.container-3:hover {
+  cursor: pointer;
+}
+
+.container-3 {
+  background: none;
+  font-size: medium;
+  border: var(--border-off);
+}
+
+/* inputs */
+.container-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container-5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-6 {
+  color: var(--color-black);
+  margin: 0 10px;
+}
+
+.container-6::first-letter {
+  text-transform: capitalize;
+}
+
+.container-7,
+.container-8 {
+  /* width: 20px;
+  height: 20px; */
+  cursor: pointer;
+  transition: all 1s ease-out;
+  margin-right: 10px;
+}
+
+.container-7:hover,
+.container-8:hover {
+  width: 15px;
+  height: 15px;
+}
+
+.container-9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-left: 20px;
+  border: var(--border-off);
+}
+
+.container-10 {
+  background: none;
+  font-size: var(--font-size-20);
+  cursor: pointer;
+  transition: all 1s ease-out;
+  border: none;
+}
+
+.container-10:hover {
+  font-size: var(--font-size-16);
+}
+
+.container-10-1 {
+  font-size: var(--font-size-20);
+}
+
+/* timeandlocation */
+.container-11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  border: var(--border-off);
+}
+
+.container-13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border: var(--border-off);
+}
+
+/* temperatureanddetails */
+.container-15 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  border: var(--border-off);
+}
+
+.container-15::first-letter {
+  text-transform: uppercase;
+}
+
+.container-16 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: var(--border-off);
+}
+
+.container-16::first-letter {
+  text-transform: uppercase;
+}
+
+.container-17 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: var(--border-off);
+}
+
+.container-18,
+.container-19,
+.container-20 {
+  flex-basis: 33.33%;
+}
+
+.container-18 {
+  width: 130px;
+  margin: -20px 0;
+  border: var(--border-off);
+}
+
+.container-19 {
+  font-size: 60px;
+  text-align: center;
+  padding-right: 42.5px;
+  margin: -20px;
+  border: var(--border-off)
+}
+
+.container-20 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 20px;
+  border: var(--border-off);
+}
+
+.container-21,
+.container-24,
+.container-28 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  border: var(--border-off);
+}
+
+.container-31 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+  margin: 0 10px 10px 10px;
+  border: var(--border-off);
+}
+
+/* forecast */
+.container-36 {
+  width: auto;
+  padding: 0 16.5px;
+}
+
+.container-37 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border: var(--border-off);
+}
+
+.container-38 {
+  text-transform: uppercase;
+  word-spacing: 7px;
+  font-weight: bold;
+  margin: 15px auto 10px auto;
+  line-height: 10px;
+  border: var(--border-off);
+}
+
+.container-39 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  border: var(--border-off);
+}
+
+.container-40 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.container-41 {
+  height: 20px;
+}
+
+.container-42 {
+  height: 80px;
+}
